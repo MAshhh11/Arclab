@@ -1,0 +1,206 @@
+/*INTEGRATION DES FONT-FACES*/
+
+/*FONT ROBOTO*/
+
+@font-face {
+    font-family: "roboto black";
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: "roboto bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "roboto regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto condensed bold";
+    src: url(../fonts/RobotoCondensed-Bold.ttf);
+}
+
+
+/*HEADER*/
+
+.head {
+    height: 80vh;
+}
+
+.main {
+    background-image: linear-gradient(#1a143d,grey), url(../img/header-bg.jpg);
+    background-blend-mode: hard-light;
+    background-size: cover;
+    color: white;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 6px;
+    font-family: "roboto condensed bold";
+    font-size: 1.8vh;
+}
+
+nav ul li:hover {
+    color: coral;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: "roboto black";
+    font-size: 5vh;
+    
+}
+
+.main h2 {
+    font-family: "roboto condensed bold";
+    font-size: 4vh;
+    
+}
+
+.main h3 {
+    font-family: "roboto condensed bold";
+    font-size: 3vh;
+    
+}
+
+.button {
+    border: 1px solid white;
+    padding: 0.5%;
+    font-family: "roboto regular";
+    font-size: 2vh;
+    margin-bottom: 2%;
+}
+
+.button:hover {
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+}
+
+i {
+    padding: 5px;
+    font-size: 2vh;
+    
+}
+
+/*FIN HEADER*/
+
+/*SECTION 1*/
+
+.section1 {
+    height: 40vh;
+}
+
+
+.section1 img {
+    width: 25%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10% 40%;
+}
+
+.section1 h4 {
+    font-family: "roboto condensed bold";
+    text-align: center;
+    font-size: 2vh;
+}
+
+.section1 p {
+    font-family: "roboto regular";
+    padding: 15px;
+    text-align: center;
+    font-size: 1.3vh;
+    
+}
+
+/*SECTION2*/
+
+.section2 {
+    background-color: ghostwhite;
+    height: 70vh;
+    
+}
+
+.section2 h4 {
+    font-family: "roboto bold";
+    color: orange;
+    font-size: 2vh;
+}
+
+.section2 h2 {
+    font-family: "roboto condensed bold";
+    font-size: 3vh;  
+}
+
+.section2 p{
+    font-size: 1.5vh;
+}
+.section2 img {
+    margin: 20% 0%;
+}
+
+.button2 {
+    border: 1px solid orange;
+    text-align: center;
+    font-size: 1.5vh;
+    padding: 5px;
+    width: 25%;
+}
+
+.button2:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+/*SECTION3*/
+
+.section3 {
+    height:  100vh;
+}
+
+.section3 h2 {
+    font-family: "roboto condensed bold";
+    text-align: center;
+    font-size: 3vh;
+}
+
+.section3 h4 {
+    font-family: "roboto bold";
+    color: orange;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.section3 li {
+    display: inline;
+    list-style-type: none;
+    padding: 6px;
+    font-family: "roboto condensed bold";
+    font-size: 2vh;
+}
+
+.section3 li span {
+    color: orange;
+}
+
+.section3 img {
+    width: 100%;
+    border-radius: 3%;
+    box-shadow: 10px 5px 5px lightgrey;
+}
+
+.etiquette {
+    background-color: white; 
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+/*POINTS DE RUPTURE DES ECRANS - VALEURS BASIQUES */
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    
+    .section1 {
+        height: 50vh;
+    }
+    
+    .section2 {
+        height: 70vh;
+    }
+    
+    .section3 {
+        height: 150vh;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media screen and (max-width:768px) {
+    
+    .section1 {
+        height: 60vh;
+    }
+    
+    .section2 {
+        height: 40vh;
+    }
+    
+    .button2 {
+        width: 30%;
+    }
+    
+    .section3 {
+        height: 90vh;
+    }
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media screen and (max-width:600px)  {
+
+    .section1 {
+        height: 150vh;
+    }
+    
+    .section2 {
+        height: 100vh;
+    }
+    
+    .section3 {
+        height: 260vh;
+    }
+
+}
